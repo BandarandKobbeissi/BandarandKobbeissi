@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),MaterialApp(
+      ),
       debugShowCheckedModeBanner: false, 
-)
+
       home: PayrollManager(),
     );
   }
